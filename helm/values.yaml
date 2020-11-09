@@ -1,3 +1,7 @@
 abinavseelan-node:
+  image:
+    tag: cats.3
   container:
-    replicas: 10
+    replicas: 2
+  env:
+    catName: keto

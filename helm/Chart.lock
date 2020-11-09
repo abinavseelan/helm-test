@@ -1,9 +1,9 @@
 dependencies:
 - name: abinavseelan-node
   repository: file://../server/helm
-  version: 0.1.0
+  version: 0.1.1
 - name: abinavseelan-nginx
   repository: file://../nginx/helm
   version: 0.1.0
-digest: sha256:29b8213c099c97f5aa2f1a3154379d738e7a40cee3692b5893347ec4995125bc
-generated: "2020-11-09T19:36:29.163199+05:30"
+digest: sha256:501bb83db9867fb0f0fc907da32437b2a8bb5d2e76694c91d6d0c0632accdd55
+generated: "2020-11-09T20:03:33.644015+05:30"
