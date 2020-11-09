@@ -1,0 +1,11 @@
+apiVersion: v2
+name: abinavseelan/pegasus
+version: 0.1.0
+
+dependencies:
+  - name: abinavseelan-node
+    repository: file://../server/helm
+    version: 0.1.0
+  - name: abinavseelan-nginx
+    repository: file://../nginx/helm
+    version: 0.1.0
