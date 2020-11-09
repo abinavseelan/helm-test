@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-server-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: nginx-server
+  template:
+    metadata:
+      labels:
+        component: nginx-server
+    spec:
+      containers:
+        - name: nginx-server
+          image: abinavseelan/nginx:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 80
