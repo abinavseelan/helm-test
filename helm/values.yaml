@@ -1,0 +1,3 @@
+abinavseelan-node:
+  container:
+    replicas: 10
