@@ -1,0 +1,13 @@
+image:
+  name: abinavseelan/nginx
+  tag: latest
+
+appName: nginx-server
+
+service:
+  type: LoadBalancer
+  port: 80
+
+container:
+  replicas: 1
+  port: 80
